@@ -1,0 +1,11 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+Variables: Las variables son como cajitas que nos permiten guardar cualquier objeto. En este caso numeros, letras, etc. Esta cajita la llevo a cualquier parte y así cuando necesite saco lo que tiene adentro.
+
+Strings: Es como si tomáramos letras, números, símbolos y los uniéramos con un hilo, formando palabras o cualquier combinación.
+
+Funciones (argumentos, return): Son como mini Siris o mini Alexas. Al ser mini solo realizan una o una cuantas tareas. En vez de comandos de voz, le damos unos valores que se llaman argumentos y el resultado de lo que haría esta mini Siri mini Alexa lo mostraría en una pantalla y lo hace por medio de un return.
+
+Declaraciones if: Esta declaración es como la escena de un explorador que en una cueva se encuentra con varios túneles y dada uno tiene una inscripción con lo que hay adentro. El explorador al ver esto se le viene a la mente lo siguiente: si entro por aquí me voy a encontrar con algo, si entro en esta otra me encontraré con otra cosa y así sucesivamente. La declaración if hace lo mismo pero la decisión de ir por un camino u otro la hace teniendo en cuenta una o unas condiciones que se le dan.
+
+Valores booleanos (true, false): Los valores booleanos son como los estados de un bombillo que solo podemos prender y apagar con un interruptor. Cuando está encendido, y nos preguntamos: está encendida la luz? La respuesta es si, por lo tanto es verdadero, en inglés true. Cuando está apagado la respuesta a esa pregunta es falso, es decir, false.

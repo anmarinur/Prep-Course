@@ -160,7 +160,7 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   var redondeo = Math.round(num);
-  return num;  
+  return redondeo;  
 }
 
 function redondearHaciaArriba(num) {
@@ -182,6 +182,16 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  var numFuncion = numero;
+  if (numFuncion == 0) {
+    return false;
+  }
+  else if (numFuncion > 0) {
+    return 'Es positivo';
+  }
+  else {
+    return 'Es negativo';
+  }
   
 }
 
@@ -189,40 +199,56 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var texto = str;
+  var resultado = texto + '!';
+  return resultado;
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+  var a = nombre;
+  var b = apellido;
+  var resultado = a + ' ' + b;
+  return resultado;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  
+  var a = nombre;
+  var resultado = 'Hola ' + a + '!'; 
+  return resultado;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  var h = alto;
+  var w = ancho;
+  var area = h * w;
+  return area;
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  var a = lado;
+  var p = 4 * a;
+  return p;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+  var b = base;
+  var h = altura;
+  var a = (b * h) / 2;
+  return a;
 }
 
 
@@ -230,7 +256,9 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  var e = euro;
+  var d = e * 1.2;
+  return d;
 }
 
 
@@ -240,7 +268,17 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  var l = letra;
+  var longitud = l.length;
+  if (longitud > 1) {
+    return 'Dato incorrecto';
+  }
+  else if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u') {
+    return 'Es vocal';
+  }
+  else {
+    return 'Dato incorrecto';
+  }
 }
 
 
