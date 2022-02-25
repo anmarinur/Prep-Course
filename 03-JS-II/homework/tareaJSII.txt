@@ -1,0 +1,18 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* for: 
+
+Esta declaración es como cuando en clase de educación física lo ponen a uno a dar vueltas a una cancha. Las vueltas que toca darle son las que diga el profesor. Cada vez que se da una vuelta se va contando hasta que llegue a la cantidad dicha por el profesor. Durante las vueltas se deben hacer unos ejercicios con los brazos. EL for hace lo mismo, aunque en vez de vueltas, este hace ciclos que es algo muy parecido, en resumen es partir de un punto y volver a el. Las condiciones que determinan la cantidad de ciclos serían las vueltas que el profesor diga y las instrucciones que realiza en cada ciclo serían los movimientos con los brazos que se hacen en cada vuelta.
+
+* &&
+
+Este operador funciona siempre y cuando todo este activo, es decir sea verdadero. Es como cuando nos ponemos un jean, solamente va a quedar puesto si nos ponemos ambas mangas del pantalón, si solo metemos una pierna no vamos a poder salir así. 
+
+* ||
+
+Este operador funciona si alguna de sus entradas o todas están activas, es decir verdaderas y lo podemos comparar con unos audífonos. Los vamos a poder usar si nos ponemos solamente uno en una oreja, sea la derecha o la izquierda o si nos ponemos ambos.
+
+* !
+
+Este operador niega todo lo que le llegue. Si la entrada es true el tiene a la salida false o viceversa. Se podría comparar con un niño caprichoso que siempre le lleva la contraria a los papás. Si ellos le dicen que si, el dice que no. Si le dicen que arriba el dice abajo. Le dicen izquierda, el dice derecha. Siempre llevando la contraria.
+
