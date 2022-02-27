@@ -1,0 +1,5 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Arrays
+
+Los arrays se pueden comparar con las filas que organizan en los colegios mientras forman en el patio. Cada estudiante se hace detras del otro hasta que queda una fila organizada. Una vez formados el profesor les pide que se enumeren comenzando por el primero y de ahí hacia atras. Lo mismo sucede con los arrays, son valores de distintos tipos organizados un después del otro y cada uno tiene asignado un número, empezando por el 0. Así cuando voy a llamar a uno de estos datos, simplemente digo el número que le corresponde en el arreglo.
