@@ -6,6 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+<<<<<<< HEAD
   var gato = {
     nombre: nombre,
     edad: edad,
@@ -14,6 +15,9 @@ function crearGato(nombre, edad) {
     }
   };
   return gato;
+=======
+  
+>>>>>>> 97628899757ff74170272b98da145bc9a631b5fe
 }
 
 
