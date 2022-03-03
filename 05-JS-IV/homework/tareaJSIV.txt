@@ -1,0 +1,22 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Objetos
+
+Los objetos se pueden comparar a un DNI o cualquier documento de identificación. Como tal es una cosa, un carné pero contiene mucha información como numero de identificación, nombres, apellidos, fechas de nacimiento, de expedición, sexo, etc. Todos datos con una relación en común contenida en una sola cosa, es decir, en un objeto.
+
+* Propiedades
+
+Siguiendo con el ejemplo del carné, las propiedades son aquellos datos que este contiene y se caracterízan porque van en "parejas". Por ejemplo a la clave nombre siempre le va a corresponder uno o unos nombres. Lo mismo con los demás datos.
+
+* Métodos
+
+Los métodos en esencia son funciones que corresponden al valor de un clave, formando así una propiedad de un objeto. Esto lo podemos comparar con una tarjeta de crédito de las nuevas que tienen chip. El objeto sería la tarjeta de crédito, sus propiedades corresponden a los nombres, número de la tarjeta, fecha de vencimiento, código de seguridad y además un chip que contiene información que ejecuta algo cuando se invoca, es decir se llama. En el caso de la tarjeta de crédito cuando esta se acerca a un datáfono. 
+
+* Bucle for…in
+
+Esta es la forma de recorrer un objeto. En los arrays teníamos cada dato etiquetado con un número o índice, mientras que en los objetos no. Es ahí donde entra el for... in ya que este me permite ahora recorrer cada propiedad del objeto. Sería como si en una fila de personas, las cuales contabamos antes por medio de números, ahora la recorrieramos identificando el nombre de cada uno de los integrantes de la fila.
+
+
+Notación de puntos vs notación de corchetes
+
+Estos son dos métodos diferentes para acceder a las propiedades de un objeto. Ya sea para establecer un valor o para borrarlas. En el primer método va el nombre del objeto, seguido de un punto y luego la clave de la propiedad. En la notación de corchetes va el nombre del objeto, un corchete, el nombre de la clave de la propiedad entre comillas y luego otro corchete.
