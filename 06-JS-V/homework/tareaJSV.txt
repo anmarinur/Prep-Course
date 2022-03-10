@@ -2,6 +2,6 @@
 
 Con prototype podemos 'almacenar' funciones con el fin de no ponerlas en cada objeto creado. Es como si para una clase, en donde van a proyectar unas diapositivas y se necesitara un Tv, entonces cada profesor llevara su propio TV para proyectar las diapositivas creando caos y demora en cada clase. Dando solución, en este caso el salón sería una especie de prototype que contiene el TV y de esa forma el docente simplemente se acerca al salón y usa el TV, cuando termina sale del salón y ya no lo usa más haciendo todo más ágil.
 
-Constructors (de Clases)
+* Constructors (de Clases)
 
 Un constructor es como un molde de los que se usan para hacer galletas. Si se hiciera manualmente, cada galleta sería muy diferente, llevaría tiempo y sería propensa a errores de tamaño. Cuando se usa este molde cada galleta va a tener una forma exacta (bueno aproximadamente, pero para el ejemplo digamos que exacta) aunque la decoración vaya a ser distinta en cada una. Lo mismo pasa con los objetos que se crean a partir de un constructor, cada uno va a manejar las mismas variables pero cada cual con sus propios valores, haciendo más facil el proceso de creación de objetos y con menos posibilidad de errores.

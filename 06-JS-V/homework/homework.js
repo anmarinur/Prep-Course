@@ -43,7 +43,6 @@ function agregarStringInvertida() {
     for (var i = 0; i < this.length; i++) {
       NewString = NewString + this[(this.length -1) - i]
     }
-    
     return NewString;
   }
 }
