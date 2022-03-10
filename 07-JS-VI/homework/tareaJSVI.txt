@@ -1,0 +1,3 @@
+* Funciones Callback
+
+Las funciones callback se me parecen mucho a una navaja suiza. Una función callback es en esencia una función dentro de otra función, muy parecido a lo que ocurre con estas navajas. Una sola tiene una función o en este caso herramienta para corte, otra para atornillar, tijeras, palillo, limas, etc. Y lo único que se debe hacer es sacar la herramienta y ahora la navaja tiene la función por ejemplo para cortar madera. Si cambio la herramienta ahora por ejemplo la navaja tiene la función de cortar papel y así sucesivamente. La navaja va a cumplir una función diferente dependiendo de que herramienta utilice.
