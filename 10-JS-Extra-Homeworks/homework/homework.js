@@ -10,7 +10,13 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
-  
+  var array = [];
+  var cont = 0;
+  for(var i in objeto){
+    array[cont] = [i, objeto[i]];
+    cont++;
+  }
+  return array;
 }
 
 
@@ -19,6 +25,21 @@ function numberOfCharacters(string) {
   //en formato par clave-valor.
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
+  const abecedario = 'abcdefghijklmnñopqrstuvwxyz';
+  var contCaracter = 0;
+  var objetoCaracteres = {};
+  for (var i = 0; i < abecedario.length; i++){
+    for (var j = 0; j < string.length; j++){
+      if (abecedario[i] == string[j]){
+        contCaracter++;
+      }
+    }
+    if (contCaracter != 0){
+      objetoCaracteres[abecedario[i]] = contCaracter;
+    }
+    contCaracter = 0;
+  }
+  return objetoCaracteres;
 }
 
 
