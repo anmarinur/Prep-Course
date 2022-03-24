@@ -79,25 +79,27 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-  var arrayEspacios = [];
+  var arrayNuevo = [];
   var temp = 0;
   var espacio = -1;
   for (var i = 0; i < str.length; i++) {
     if (str[i] == ' ') {
+      arrayNuevo[i] = str[i];
       espacio = i;
     } else if (i == 0){
-      //return;
+      arrayNuevo[i] = str[i]; // revisar porque abajo no coje cambios
     } else if(espacio != 0 && i == espacio + 1) {
-      //return;
+      arrayNuevo[i] = str[i];
     } else {
       for (var j = i; j == espacio + 1; j--) {
-        temp = str[j];
-        str[j] = str[j-1];
-        str[j-1] = temp;
+        // falta cargar lo que viene del str
+        temp = arrayNuevo[j-1];
+        arrayNuevo[j-1] = arrayNuevo[j];
+        arrayNuevo[j] = temp;
       }
     }
   }
-  return str;
+  return arrayNuevo;
 } 
 
 
