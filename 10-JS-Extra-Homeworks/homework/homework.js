@@ -79,27 +79,26 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
-  var arrayNuevo = [];
+  var arrayNuevo = str.split('');
   var temp = 0;
   var espacio = -1;
-  for (var i = 0; i < str.length; i++) {
-    if (str[i] == ' ') {
-      arrayNuevo[i] = str[i];
+  for (var i = 0; i < arrayNuevo.length; i++) {
+    if (arrayNuevo[i] == ' ') {
       espacio = i;
-    } else if (i == 0){
-      arrayNuevo[i] = str[i]; // revisar porque abajo no coje cambios
+      arrayNuevo[i] = arrayNuevo[i];
+    } else if (i == 0) {
+      arrayNuevo[i] = arrayNuevo[i];
     } else if(espacio != 0 && i == espacio + 1) {
-      arrayNuevo[i] = str[i];
+      arrayNuevo[i] = arrayNuevo[i];
     } else {
-      for (var j = i; j == espacio + 1; j--) {
-        // falta cargar lo que viene del str
+      for (var j = i; j > espacio + 1; j--) {
         temp = arrayNuevo[j-1];
         arrayNuevo[j-1] = arrayNuevo[j];
         arrayNuevo[j] = temp;
       }
     }
   }
-  return arrayNuevo;
+  return arrayNuevo.join('');
 } 
 
 
@@ -108,6 +107,17 @@ function capicua(numero){
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de 
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  var stringNumero = numero + '';
+  var arrayNumeroIzq = stringNumero.split('');
+  var arrayNumeroDer = [];
+  for (var i = 0; i < arrayNumeroIzq.length; i++){
+    arrayNumeroDer[i] = arrayNumeroIzq[(arrayNumeroIzq.length-1)-i]; 
+  }
+  if (arrayNumeroIzq.join('') == arrayNumeroDer.join('')) {
+    return 'Es capicua';
+  } else {
+    return 'No es capicua';
+  }
 }
 
 
