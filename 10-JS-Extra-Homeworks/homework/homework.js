@@ -48,6 +48,28 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  const abcMayus = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
+  var contMayus = 0;
+  var contAbc = abcMayus.length;
+  var contMinus = 0;
+  var arrayMayus = [];
+  var arrayMinus = [];
+  for (var i = 0; i < s.length; i++) {
+    for (var j = 0; j < abcMayus.length; j++) {
+      if (s[i] == abcMayus[j]) {
+        arrayMayus[contMayus] = s[i];
+        contMayus++;
+      } else {
+        contAbc--;
+      }
+    }
+    if (contAbc == 0) {
+      arrayMinus[contMinus] = s[i];
+      contMinus++;
+    } 
+    contAbc = abcMayus.length;
+  }
+  return arrayMayus.join('') + arrayMinus.join('');
 }
 
 
@@ -57,6 +79,25 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+  var arrayEspacios = [];
+  var temp = 0;
+  var espacio = -1;
+  for (var i = 0; i < str.length; i++) {
+    if (str[i] == ' ') {
+      espacio = i;
+    } else if (i == 0){
+      //return;
+    } else if(espacio != 0 && i == espacio + 1) {
+      //return;
+    } else {
+      for (var j = i; j == espacio + 1; j--) {
+        temp = str[j];
+        str[j] = str[j-1];
+        str[j-1] = temp;
+      }
+    }
+  }
+  return str;
 } 
 
 
