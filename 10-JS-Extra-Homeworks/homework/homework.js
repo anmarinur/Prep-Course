@@ -148,17 +148,14 @@ function sortArray(arr) {
   // });
   var i = 0;
   var j = 0;
-  var k = 0;
-  var l = 0;
   var temp = 0;
   var long = arr.length;
   var menor = 0;
-  var mayor = 0;
   while (i < long) {
     j = i + 1;
     menor = false;
     while (menor == false && j < long) {
-      if (arr[i].lenght > arr[j].length) {
+      if (arr[i].length > arr[j].length) {
         temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
